@@ -55,4 +55,11 @@ void main() {
   print("Ages of students ${ages.keys}");
   print("Ages of students ${ages.values}");
 
+  //Runes - Integer used to represent unicode point
+//What is a Unicode point
+
+  String runesString = "Runes in Dart: \u{1F600} \u{1F000} \u{1F680}";
+
+  // Print the string
+  print(runesString);
 }
