@@ -32,6 +32,21 @@ int add(int a, int b) {
 
 //Anonymous functions
 
+const fruits = ['Apple', 'Mango', 'Banana', 'Orange'];
+
+//Arrow functions
+
+//Calculation of simple interest without arrow function
+
+/*double calculateInterest(double principal, double rate, double time) {
+   double interest = principal * rate * time;
+   return interest;
+ }*/
+
+//calculation of simple interest without arrow function
+double calculateInterest(double principal, double rate, double time) =>
+    principal * rate * time;
+
 //Main function here
 void main() {
   printName();
@@ -42,6 +57,13 @@ void main() {
 
   int total = add(5, 9);
   print("Th sum is $total");
+//calling anonymous function as a parameter
+  fruits.forEach((fruit) {
+    print(fruit);
+  });
+
+  //calling the interest fucntion
+
+  double simpleInterest = calculateInterest(10.7, 5.8, 9);
+  print("the simple interest is $simpleInterest");
 }
-
-
