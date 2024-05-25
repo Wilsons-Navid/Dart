@@ -33,16 +33,26 @@ void main() {
 
 //anything to know about Boleans
 
-bool isSingle = false;
-print("Married Status: $isSingle");
- //List
+  bool isSingle = false;
+  print("Married Status: $isSingle");
+  //List
 
   List<String> names = ['john', 'James', 'Peter'];
   print("Value of names is $names");
   print("Value of names[0] is ${names[0]}");
   print(names);
- 
 
+  //Mapping in Dart
 
+  Map<String, int> ages = {
+    'Alice': 30,
+    'Bob': 25,
+    'Charlie': 35,
+  };
+
+  print("Ages of students $ages");
+
+  print("Ages of students ${ages.keys}");
+  print("Ages of students ${ages.values}");
 
 }
