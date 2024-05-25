@@ -30,6 +30,9 @@ int add(int a, int b) {
   return sum;
 }
 
+//Anonymous functions
+
+//Main function here
 void main() {
   printName();
   arithmetic(5, 6);
@@ -40,3 +43,5 @@ void main() {
   int total = add(5, 9);
   print("Th sum is $total");
 }
+
+
