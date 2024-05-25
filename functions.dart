@@ -57,7 +57,7 @@ void main() {
 
   int total = add(5, 9);
   print("Th sum is $total");
-//calling anonymous function as a parameter
+//calling anonymous function as a paramete
   fruits.forEach((fruit) {
     print(fruit);
   });
